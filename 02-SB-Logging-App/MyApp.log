@@ -1,0 +1,216 @@
+2023-08-12 12:12:42,276 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 256 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:12:42,277 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:12:42,544 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:12:42,545 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:12:42,546 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:12:42,564 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:12:42,564 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 265 ms
+2023-08-12 12:12:42,657 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:12:42,674 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:12:42,692 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.6 seconds (JVM running for 801.64)
+2023-08-12 12:12:42,695 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 12:14:11,387 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-08-12 12:14:11,401 [RMI TCP Connection(30)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:14:14,187 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:14:14,191 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:14:14,279 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-12 12:14:14,280 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-12 12:14:15,700 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:14:15,713 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:14:15,715 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:14:15,715 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:14:15,806 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:14:15,807 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1526 ms
+2023-08-12 12:14:16,320 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:14:16,343 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:14:16,372 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:14:16,390 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 2.833 seconds (JVM running for 4.154)
+2023-08-12 12:14:50,142 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-12 12:14:50,143 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-08-12 12:14:50,145 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-08-12 12:14:50,184 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:50,185 [http-nio-8081-exec-1] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:50,185 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:50,340 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:50,341 [http-nio-8081-exec-2] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:50,341 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:50,435 [http-nio-8081-exec-3] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:50,436 [http-nio-8081-exec-3] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:50,436 [http-nio-8081-exec-3] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:50,622 [http-nio-8081-exec-4] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:50,622 [http-nio-8081-exec-4] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:50,622 [http-nio-8081-exec-4] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:50,719 [http-nio-8081-exec-5] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:50,720 [http-nio-8081-exec-5] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:50,721 [http-nio-8081-exec-5] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:50,905 [http-nio-8081-exec-6] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:50,905 [http-nio-8081-exec-6] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:50,905 [http-nio-8081-exec-6] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:51,003 [http-nio-8081-exec-7] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:51,004 [http-nio-8081-exec-7] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:51,004 [http-nio-8081-exec-7] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:51,177 [http-nio-8081-exec-8] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:51,177 [http-nio-8081-exec-8] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:51,178 [http-nio-8081-exec-8] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:51,275 [http-nio-8081-exec-9] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:51,276 [http-nio-8081-exec-9] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:51,276 [http-nio-8081-exec-9] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:51,460 [http-nio-8081-exec-10] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:51,461 [http-nio-8081-exec-10] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:51,461 [http-nio-8081-exec-10] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:51,575 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:51,576 [http-nio-8081-exec-1] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:51,576 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:51,771 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:51,771 [http-nio-8081-exec-2] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:51,771 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,048 [http-nio-8081-exec-3] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,048 [http-nio-8081-exec-3] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,048 [http-nio-8081-exec-3] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,145 [http-nio-8081-exec-4] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,145 [http-nio-8081-exec-4] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,145 [http-nio-8081-exec-4] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,341 [http-nio-8081-exec-5] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,341 [http-nio-8081-exec-5] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,341 [http-nio-8081-exec-5] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,429 [http-nio-8081-exec-6] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,429 [http-nio-8081-exec-6] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,429 [http-nio-8081-exec-6] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,623 [http-nio-8081-exec-7] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,624 [http-nio-8081-exec-7] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,624 [http-nio-8081-exec-7] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,722 [http-nio-8081-exec-8] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,722 [http-nio-8081-exec-8] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,723 [http-nio-8081-exec-8] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:52,928 [http-nio-8081-exec-9] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:52,929 [http-nio-8081-exec-9] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:52,929 [http-nio-8081-exec-9] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:53,018 [http-nio-8081-exec-10] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:53,018 [http-nio-8081-exec-10] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:53,019 [http-nio-8081-exec-10] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:53,231 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:53,231 [http-nio-8081-exec-1] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:53,231 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:53,370 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:53,371 [http-nio-8081-exec-2] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:53,371 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:14:53,612 [http-nio-8081-exec-3] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:14:53,612 [http-nio-8081-exec-3] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:14:53,612 [http-nio-8081-exec-3] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:22:12,755 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-08-12 12:22:12,805 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:22:12,806 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:22:12,809 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-12 12:22:12,824 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:22:12,829 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:22:12,933 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:22:12,933 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:22:13,202 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:22:13,204 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:22:13,205 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:22:13,205 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:22:13,227 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:22:13,227 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 288 ms
+2023-08-12 12:22:13,344 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:22:13,355 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:22:13,359 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:22:13,370 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.488 seconds (JVM running for 479.808)
+2023-08-12 12:22:13,377 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 12:25:11,769 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-12 12:25:11,793 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:11,794 [Thread-7] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:25:11,801 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:11,804 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:11,944 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:25:11,945 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:25:12,298 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:25:12,298 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:12,299 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:25:12,299 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:25:12,323 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:25:12,324 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 367 ms
+2023-08-12 12:25:12,456 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:25:12,466 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:12,471 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:25:12,484 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.612 seconds (JVM running for 658.922)
+2023-08-12 12:25:12,489 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 12:25:26,180 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-12 12:25:26,207 [Thread-11] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:26,207 [Thread-11] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:25:26,212 [Thread-11] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:26,215 [Thread-11] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:26,310 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:25:26,311 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:25:26,541 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:25:26,542 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:26,542 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:25:26,543 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:25:26,563 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:25:26,563 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 247 ms
+2023-08-12 12:25:26,649 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:25:26,658 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:25:26,663 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:25:26,673 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.406 seconds (JVM running for 673.112)
+2023-08-12 12:25:26,676 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 12:25:34,306 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-12 12:25:34,307 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-08-12 12:25:34,309 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-08-12 12:25:34,313 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:25:34,313 [http-nio-8081-exec-1] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:25:34,314 [http-nio-8081-exec-1] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:25:36,527 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution started...
+2023-08-12 12:25:36,528 [http-nio-8081-exec-2] ERROR com.example.demo.DemoRestController                - Exception occured : / by zero
+2023-08-12 12:25:36,528 [http-nio-8081-exec-2] INFO  com.example.demo.DemoRestController                -  getWelcomeMsg() execution ended...
+2023-08-12 12:25:41,157 [http-nio-8081-exec-3] INFO  com.example.demo.GreetingRestController            - greeting() Msg is started.......
+2023-08-12 12:25:41,158 [http-nio-8081-exec-3] INFO  com.example.demo.GreetingRestController            - greeting() Msg is completed.......
+2023-08-12 12:34:48,760 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (0 additions, 6 deletions, 2 modifications)
+2023-08-12 12:34:48,781 [Thread-15] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:48,782 [Thread-15] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:34:48,783 [Thread-15] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-12 12:34:48,787 [Thread-15] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:48,792 [Thread-15] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:48,945 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:34:48,946 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:34:49,344 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:34:49,345 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:49,346 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:34:49,346 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:34:49,377 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:34:49,377 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 424 ms
+2023-08-12 12:34:49,512 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:34:49,533 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:49,544 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:34:49,556 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.69 seconds (JVM running for 1235.994)
+2023-08-12 12:34:49,559 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 12:34:50,961 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2023-08-12 12:34:50,986 [Thread-19] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:50,986 [Thread-19] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:34:50,991 [Thread-19] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:50,993 [Thread-19] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:51,166 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:34:51,167 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:34:51,600 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:34:51,601 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:51,602 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:34:51,604 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:34:51,628 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:34:51,628 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 456 ms
+2023-08-12 12:34:51,802 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:34:51,840 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:34:51,846 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:34:51,861 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.791 seconds (JVM running for 1238.299)
+2023-08-12 12:34:51,863 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 12:34:59,345 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.ApplicationTests], using SpringBootContextLoader
+2023-08-12 12:34:59,360 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.example.demo.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-08-12 12:34:59,363 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.example.demo.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-08-12 12:34:59,634 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.example.demo.Application for test class com.example.demo.ApplicationTests
+2023-08-12 12:34:59,884 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-08-12 12:34:59,924 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ff65192, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2dd80673, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4af0df05, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57ea113a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@acdb094, org.springframework.test.context.support.DirtiesContextTestExecutionListener@674bd420, org.springframework.test.context.event.EventPublishingTestExecutionListener@2b0f373b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2ceb80a1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b45dcb8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7216fb24, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2072acb2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50ecde95, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@35a9782c]
+2023-08-12 12:35:00,667 [main] INFO  com.example.demo.ApplicationTests                  - Starting ApplicationTests using Java 18 on DESKTOP-GPE5UL6 with PID 14656 (started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:35:00,669 [main] INFO  com.example.demo.ApplicationTests                  - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:35:04,102 [main] INFO  com.example.demo.ApplicationTests                  - Started ApplicationTests in 4.069 seconds (JVM running for 6.473)
+2023-08-12 12:38:04,602 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-08-12 12:38:04,642 [Thread-23] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:38:04,643 [Thread-23] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 12:38:04,653 [Thread-23] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:38:04,657 [Thread-23] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
