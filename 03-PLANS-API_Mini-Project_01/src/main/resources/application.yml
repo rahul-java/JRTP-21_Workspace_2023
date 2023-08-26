@@ -1,0 +1,24 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: rahul
+    url: jdbc:h2:mem:jrtp_mini_proj_01
+    username: rahul
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+plan-api:
+ messages:
+  planSaveSucc: Plan Saved Successfully
+  planSaveFail: Plan Save Failed
+  planUpdateSucc: Plan Update Successfully
+  planUpdateFail: Plan Update Failed
+  planDelSucc: Plan Delete Successfully
+  planDelFail: Plan Delete Failed
+  planStatusChangeSucc: Plan Status Changed Successfully
+  planStatusChangeFail: Plan Status Changed Failed
+      

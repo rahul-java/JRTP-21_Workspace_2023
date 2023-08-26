@@ -214,3 +214,21 @@
 2023-08-12 12:38:04,643 [Thread-23] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
 2023-08-12 12:38:04,653 [Thread-23] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
 2023-08-12 12:38:04,657 [Thread-23] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:38:04,763 [restartedMain] INFO  com.example.demo.Application                       - Starting Application using Java 18 on DESKTOP-GPE5UL6 with PID 7568 (C:\JRTP-21_Workspace_2023\02-SB-Logging-App\target\classes started by hp in C:\JRTP-21_Workspace_2023\02-SB-Logging-App)
+2023-08-12 12:38:04,764 [restartedMain] INFO  com.example.demo.Application                       - No active profile set, falling back to 1 default profile: "default"
+2023-08-12 12:38:05,002 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-12 12:38:05,003 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:38:05,004 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-12 12:38:05,004 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-12 12:38:05,030 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-12 12:38:05,030 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 262 ms
+2023-08-12 12:38:05,121 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-12 12:38:05,128 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-12 12:38:05,132 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-12 12:38:05,142 [restartedMain] INFO  com.example.demo.Application                       - Started Application in 0.424 seconds (JVM running for 1431.58)
+2023-08-12 12:38:05,145 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-12 13:34:24,446 [RMI TCP Connection(100)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-08-12 13:34:24,461 [RMI TCP Connection(100)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-12 13:34:24,461 [RMI TCP Connection(100)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-12 13:34:24,465 [RMI TCP Connection(100)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-12 13:34:24,467 [RMI TCP Connection(100)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
