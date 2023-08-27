@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="de.jcup.yamleditor:1.9.0"/>
 		<item value="net.mihai-nita.ansicon:1.4.7.202206130310"/>
 		<item value="org.eclipse.buildship:3.1.6.v20220511-1359"/>
 		<item value="org.eclipse.datatools.connectivity.feature:1.14.102.201911250848"/>
