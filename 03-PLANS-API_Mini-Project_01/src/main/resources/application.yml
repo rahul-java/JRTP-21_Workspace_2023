@@ -2,10 +2,10 @@ server:
   port: 9090
 spring:
   datasource:
-    driverClassName: org.h2.Driver
-    password: rahul
-    url: jdbc:h2:mem:jrtp_mini_proj_01
-    username: rahul
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/jrtp
   jpa:
     hibernate:
       ddl-auto: update
