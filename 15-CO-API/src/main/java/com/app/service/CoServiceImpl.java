@@ -7,6 +7,10 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -51,53 +55,78 @@ public class CoServiceImpl implements CoService {
 
 		CitizenAppEntity citizenAppEntity = null;
 		CoResponse response = new CoResponse();
-		Long failed=0l;
-		Long success=0l;
-		
+
+		final Long failed = 0l;
+		final Long success = 0l;
+
 		// fetch all pending triggers
 
 		List<CoTriggerEntity> pendingTriggers = coTriggerRepository.findByTrgStatus("PENDING");
-		
+
 		response.setTotalTriggers(Long.valueOf(pendingTriggers.size()));
 
+		ExecutorService executorService = Executors.newFixedThreadPool(10);
+		ExecutorCompletionService<Object> pool = new ExecutorCompletionService<>(executorService);
+
 		// process each pending triggers
-
 		for (CoTriggerEntity entity : pendingTriggers) {
-			// get eligibility data based on caseNum
-			EligDtlsEntity eligDtlsEntity = eligDtlsRepository.findByCaseNum(entity.getCaseNum());
-
-			// get citizen data based on caseNum
-			Optional<DcCaseEntity> dcCaseEntityOptional = dcCaseRepository.findById(entity.getCaseNum());
-			if (dcCaseEntityOptional.isPresent()) {
-				DcCaseEntity dcCaseEntity = dcCaseEntityOptional.get();
-				Integer appId = dcCaseEntity.getAppId();
-				Optional<CitizenAppEntity> citizenAppEntityOptional = citizenAppRepository.findById(appId);
-				if (citizenAppEntityOptional.isPresent()) {
-					citizenAppEntity = citizenAppEntityOptional.get();
-
-				}
-			}
-
-			// generate pdf with elig details
-			// send pdf to citizen mail
-			// store pdf and update trigger as complete
-
-			try {
-				generatePdf(eligDtlsEntity, citizenAppEntity);
-				success++;
-			} catch (Exception e) {
-				failed++;
-				e.printStackTrace();
-			}
-
 			
+			pool.submit(new Callable<Object>() {
+
+				@Override
+				public Object call() throws Exception {
+					
+					try {
+
+						processTrigger(response, entity);
+						//success++;
+					} catch (Exception e) {
+						//failed++;
+						e.printStackTrace();
+					}
+					return null;
+				}
+			});
+			
+
 		}
 
-		// return summary
+		
+
 		response.setFailedTriggers(failed);
 		response.setSuccTriggers(success);
 
+		// return summary
+
 		return response;
+	}
+
+	private CitizenAppEntity processTrigger(CoResponse response, CoTriggerEntity entity) throws Exception {
+
+		CitizenAppEntity citizenAppEntity = null;
+
+		// get eligibility data based on caseNum
+		EligDtlsEntity eligDtlsEntity = eligDtlsRepository.findByCaseNum(entity.getCaseNum());
+
+		// get citizen data based on caseNum
+		Optional<DcCaseEntity> dcCaseEntityOptional = dcCaseRepository.findById(entity.getCaseNum());
+		if (dcCaseEntityOptional.isPresent()) {
+			DcCaseEntity dcCaseEntity = dcCaseEntityOptional.get();
+			Integer appId = dcCaseEntity.getAppId();
+			Optional<CitizenAppEntity> citizenAppEntityOptional = citizenAppRepository.findById(appId);
+			if (citizenAppEntityOptional.isPresent()) {
+				citizenAppEntity = citizenAppEntityOptional.get();
+
+			}
+		}
+
+		// generate pdf with elig details
+		// send pdf to citizen mail
+		// store pdf and update trigger as complete
+
+		generatePdf(eligDtlsEntity, citizenAppEntity);
+
+		return citizenAppEntity;
 	}
 
 	private void generatePdf(EligDtlsEntity elig, CitizenAppEntity citizen) throws Exception {
@@ -175,22 +204,22 @@ public class CoServiceImpl implements CoService {
 		emailUtils.sendEmail(citizen.getEmail(), body, subject, file);
 
 		updateTrigger(elig.getCaseNum(), file);
-		
+
 		file.delete();
 	}
 
 	private void updateTrigger(Long caseNum, File file) throws Exception {
-		
+
 		CoTriggerEntity coTriggerEntity = coTriggerRepository.findByCaseNum(caseNum);
 
 		byte[] byteArr = new byte[(byte) file.length()];
-		
+
 		FileInputStream fileInputStream = new FileInputStream(file);
 		fileInputStream.read(byteArr);
-		
+
 		coTriggerEntity.setCoPdf(byteArr);
 		coTriggerEntity.setTrgStatus("Completed");
-		
+
 		coTriggerRepository.save(coTriggerEntity);
 		fileInputStream.close();
 
