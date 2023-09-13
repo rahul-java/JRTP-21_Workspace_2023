@@ -13,4 +13,6 @@ public class CitizenApp {
 	private String gender;
 	private Long ssn;
 	private LocalDate dob;
+	
+	
 }

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-    <fullyQualifiedTypeName name="com.app.binding.Education"/>
-    <fullyQualifiedTypeName name="com.app.binding.Child"/>
-    <fullyQualifiedTypeName name="com.app.binding.ChildRequest"/>
-    <fullyQualifiedTypeName name="com.app.binding.DcSummary"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="javax.mail.internet.MimeBodyPart"/>
     <fullyQualifiedTypeName name="javax.mail.BodyPart"/>
     <fullyQualifiedTypeName name="javax.activation.DataHandler"/>
+    <fullyQualifiedTypeName name="Demo"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorCompletionService"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
 </qualifiedTypeNameHistroy>
