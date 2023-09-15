@@ -18,6 +18,7 @@ import com.app.entity.DcEducationEntity;
 import com.app.entity.DcIncomeEntity;
 import com.app.entity.EligDtlsEntity;
 import com.app.entity.PlanEntity;
+import com.app.exception.EdException;
 import com.app.repository.CitizenAppRepository;
 import com.app.repository.CoTriggerRepository;
 import com.app.repository.DcCaseRepository;
@@ -54,53 +55,61 @@ public class EligServiceImpl implements EligService {
 		Integer planId = null;
 		String planName = null;
 		Integer appId = null;
+		EligResponse eligResponse=null;
 
-		Optional<DcCaseEntity> caseEntityOptional = dcCaseRepository.findById(caseNum);
-		if (caseEntityOptional.isPresent()) {
-			DcCaseEntity dcCaseEntity = caseEntityOptional.get();
-			planId = dcCaseEntity.getPlanId();
-			appId = dcCaseEntity.getAppId();
-		}
-
-		Optional<PlanEntity> planEntityOptional = planRepository.findById(planId);
-		if (planEntityOptional.isPresent()) {
-			PlanEntity planEntity = planEntityOptional.get();
-			planName = planEntity.getPlanName();
-		}
-		
-		Optional<CitizenAppEntity> citizenEntityOptional = citizenAppRepository.findById(appId);
-		Integer age=0;
-		CitizenAppEntity citizen=null;
-		if(citizenEntityOptional.isPresent())
-		{
-			citizen = citizenEntityOptional.get();
-			LocalDate dob = citizen.getDob();
-			LocalDate now = LocalDate.now();
+		try {
 			
-			Period period = Period.between(dob, now);
-			age = period.getYears();
-		}
+			Optional<DcCaseEntity> caseEntityOptional = dcCaseRepository.findById(caseNum);
+			if (caseEntityOptional.isPresent()) {
+				DcCaseEntity dcCaseEntity = caseEntityOptional.get();
+				planId = dcCaseEntity.getPlanId();
+				appId = dcCaseEntity.getAppId();
+			}
 
-		 EligResponse eligResponse = executePlanCondition(caseNum, planName, age);
-		 
-		 //logic to store data in db
-		 
-		 EligDtlsEntity eligDtlsEntity = new EligDtlsEntity();
-		 
-		 BeanUtils.copyProperties(eligResponse, eligDtlsEntity);
-		 eligDtlsEntity.setCaseNum(caseNum);
-		 eligDtlsEntity.setHolderName(citizen.getFullname());
-		 eligDtlsEntity.setHolderSsn(citizen.getSsn());
-		 
-		 eligDtlsRepository.save(eligDtlsEntity);
-		 
-		 CoTriggerEntity coTriggerEntity = new CoTriggerEntity();
-		 coTriggerEntity.setCaseNum(caseNum);
-		 coTriggerEntity.setTrgStatus("PENDING");
-		 
-		 coTriggerRepository.save(coTriggerEntity);
-		 
-		 return eligResponse;
+			Optional<PlanEntity> planEntityOptional = planRepository.findById(planId);
+			if (planEntityOptional.isPresent()) {
+				PlanEntity planEntity = planEntityOptional.get();
+				planName = planEntity.getPlanName();
+			}
+			
+			Optional<CitizenAppEntity> citizenEntityOptional = citizenAppRepository.findById(appId);
+			Integer age=0;
+			CitizenAppEntity citizen=null;
+			if(citizenEntityOptional.isPresent())
+			{
+				citizen = citizenEntityOptional.get();
+				LocalDate dob = citizen.getDob();
+				LocalDate now = LocalDate.now();
+				
+				Period period = Period.between(dob, now);
+				age = period.getYears();
+			}
+
+			 eligResponse = executePlanCondition(caseNum, planName, age);
+			 
+			 //logic to store data in db
+			 
+			 EligDtlsEntity eligDtlsEntity = new EligDtlsEntity();
+			 
+			 BeanUtils.copyProperties(eligResponse, eligDtlsEntity);
+			 eligDtlsEntity.setCaseNum(caseNum);
+			 eligDtlsEntity.setHolderName(citizen.getFullname());
+			 eligDtlsEntity.setHolderSsn(citizen.getSsn());
+			 
+			 eligDtlsRepository.save(eligDtlsEntity);
+			 
+			 CoTriggerEntity coTriggerEntity = new CoTriggerEntity();
+			 coTriggerEntity.setCaseNum(caseNum);
+			 coTriggerEntity.setTrgStatus("PENDING");
+			 
+			 coTriggerRepository.save(coTriggerEntity);
+			 
+			 return eligResponse;
+			
+		} catch (Exception e) {
+
+			throw new EdException(e.getMessage());
+		}
 	}
 
 	private EligResponse executePlanCondition(Long caseNum, String planName,Integer age) {
