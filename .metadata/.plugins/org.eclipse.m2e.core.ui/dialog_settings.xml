@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\JRTP-21_Workspace_2023\21-JUnit5-Palindrome"/>
 			<item value="C:\JRTP-21_Workspace_2023\Sbi-App\pom.xml"/>
 			<item value="C:\JRTP-21_Workspace_2023\Password_Utils"/>
 		</list>
@@ -15,7 +16,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -27,12 +28,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.app"/>
 			<item value="org.Checkout"/>
 		</list>
 		<list key="groupId">
+			<item value="com.app"/>
 			<item value="com.flipkart"/>
 		</list>
 		<list key="artifactId">
+			<item value="24-xxx"/>
+			<item value="23-JUnit5-Power-Mock-App"/>
+			<item value="22-JUnit5-Exception"/>
+			<item value="21-JUnit5-Palindrome"/>
+			<item value="20-JUnit5-Calc-App"/>
 			<item value="Checkout"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -49,19 +57,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.flipkart"/>
-			<item value="com.tcs.sbi"/>
-			<item value="com.app"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Checkout"/>
-			<item value="Flipkart-App"/>
-			<item value="Payment"/>
-			<item value="Sbi-App"/>
-			<item value="Password_Utils"/>
-			<item value="01-Maven-App-StandaloneApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
