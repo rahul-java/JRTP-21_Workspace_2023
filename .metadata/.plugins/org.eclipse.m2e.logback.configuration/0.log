@@ -16817,3 +16817,96 @@ org.eclipse.core.runtime.CoreException: Launch configuration ASMifierClassVisito
 2023-09-28 11:50:45,783 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-09-28 11:50:45,785 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\27-SB-App_ComunicateWith_Angular\src\test\resources
 2023-09-28 11:57:12,536 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 11:57:12,594 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 11:57:12,597 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\27-SB-App_ComunicateWith_Angular\src\test\resources
+2023-09-28 12:22:21,122 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:28-SB-App_Comunicate_With_Angular:0.0.1-SNAPSHOT @ C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\pom.xml.
+2023-09-28 12:22:22,631 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.pom
+2023-09-28 12:22:22,719 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.pom
+2023-09-28 12:22:23,839 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar
+2023-09-28 12:22:25,083 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar
+2023-09-28 12:22:25,596 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular/src/main/java
+2023-09-28 12:22:25,597 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular/src/main/resources
+2023-09-28 12:22:25,614 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular/src/main/resources
+2023-09-28 12:22:25,629 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular/src/test/java
+2023-09-28 12:22:26,322 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2023-09-28 12:22:26,325 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-28 12:22:27,334 [Worker-30: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30-sources.jar
+2023-09-28 12:22:27,384 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:28-SB-App_Comunicate_With_Angular:0.0.1-SNAPSHOT @ C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\pom.xml.
+2023-09-28 12:22:28,289 [Worker-30: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30-sources.jar
+2023-09-28 12:22:28,651 [Worker-30: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.30
+2023-09-28 12:22:28,828 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular/src/main/java
+2023-09-28 12:22:28,829 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular/src/main/resources
+2023-09-28 12:22:28,830 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular/src/main/resources
+2023-09-28 12:22:28,831 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular/src/test/java
+2023-09-28 12:22:29,316 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2023-09-28 12:22:30,591 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:22:30,616 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:22:30,622 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:22:58,063 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:22:58,084 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:22:58,108 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:24:44,869 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:24:44,878 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:24:44,880 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:25:21,146 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:25:21,155 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:25:21,159 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:26:12,430 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:26:12,438 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:26:12,441 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:29:31,365 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:29:31,373 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:29:31,376 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:31:03,410 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:31:03,485 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:31:03,487 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:35:10,854 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:35:10,862 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:35:10,867 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 12:35:29,123 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-28 12:35:31,534 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:27-SB-App_ComunicateWith_Angular:0.0.1-SNAPSHOT @ C:\JRTP-21_Workspace_2023\27-SB-App_ComunicateWith_Angular\pom.xml.
+2023-09-28 12:35:32,164 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:28-SB-App_Comunicate_With_Angular:0.0.1-SNAPSHOT @ C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\pom.xml.
+2023-09-28 12:35:34,648 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular/src/main/java
+2023-09-28 12:35:34,649 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular/src/main/resources
+2023-09-28 12:35:34,650 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular/src/main/resources
+2023-09-28 12:35:34,650 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular/src/test/java
+2023-09-28 12:35:35,021 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2023-09-28 12:35:35,970 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:35:35,972 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:35:35,975 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\27-SB-App_ComunicateWith_Angular\src\test\resources
+2023-09-28 12:35:37,282 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 12:35:37,337 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 12:35:37,340 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 15:35:36,852 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-28 15:51:26,720 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 15:51:26,764 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 15:51:26,771 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 15:52:06,515 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 15:52:06,526 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 15:52:06,531 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 16:16:20,591 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 16:16:20,621 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 16:16:20,628 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 16:35:12,404 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 16:35:12,423 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 16:35:12,427 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular\src\test\resources
+2023-09-28 16:36:52,411 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:28-SB-App_Comunicate_With_Angular:0.0.1-SNAPSHOT @ C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular_Returning_Collection\pom.xml.
+2023-09-28 16:36:59,665 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 16:36:59,702 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 16:36:59,717 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular_Returning_Collection\src\test\resources
+2023-09-28 16:37:02,914 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 16:37:02,920 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 16:37:02,924 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular_Returning_Collection\src\test\resources
+2023-09-28 16:37:02,983 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-28 16:37:03,923 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:28-SB-App_Comunicate_With_Angular:0.0.1-SNAPSHOT @ C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular_Returning_Collection\pom.xml.
+2023-09-28 16:37:04,699 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular_Returning_Collection/src/main/java
+2023-09-28 16:37:04,700 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular_Returning_Collection/src/main/resources
+2023-09-28 16:37:04,701 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28-SB-App_Comunicate_With_Angular_Returning_Collection/src/main/resources
+2023-09-28 16:37:04,702 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28-SB-App_Comunicate_With_Angular_Returning_Collection/src/test/java
+2023-09-28 16:37:06,228 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-09-28 16:37:07,855 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 16:37:07,887 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 16:37:07,893 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular_Returning_Collection\src\test\resources
+2023-09-28 16:37:54,040 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-28 16:37:54,051 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-28 16:37:54,056 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JRTP-21_Workspace_2023\28-SB-App_Comunicate_With_Angular_Returning_Collection\src\test\resources
