@@ -1,0 +1,15 @@
+use jrtp;
+create table users (username varchar(50) NOT NULL,password varchar(120) NOT NULL, enabled TINYINT(1) NOT NULL, PRIMARY KEY (username));
+create table authorities (username varchar(50) NOT NULL,authority varchar(50) NOT NULL,KEY username (username),
+constraint authorities_ibfk_1 foreign key (username) references users (username));
+
+desc authorities;
+
+insert into users values('admin','$2a$12$WekIT6tqOUiK4uff0NfOh.hzuNRkkbC94UbThGa5ElBQvMQqKi2La',1); #admin@123
+insert into users values('user','$2a$12$rmflXTrKjPEB5KK4pQD/zub7NLunYPxSYq26AWAj.PGIvBfrKMxQu',1); #user@123
+insert into authorities values('admin','ROLE_ADMIN');
+insert into authorities values('admin','ROLE_USER');
+insert into authorities values('user','ROLE_USER');
+
+select * from users;
+select * from authorities;
