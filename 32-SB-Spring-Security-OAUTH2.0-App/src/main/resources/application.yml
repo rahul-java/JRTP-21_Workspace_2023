@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 0435343a64ebf1757cb5
+            client-secret: 072127380b1b70af5d10231d7cbbf92192b1d746
